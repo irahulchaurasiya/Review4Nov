@@ -28,7 +28,7 @@ const App = () => {
   const handleChange = (e) => {
     setEnterClicked(false);
     setValue(e.target.value);
-    setSelectedIndex(-1);
+    setSelectedIndex(0);
   };
 
   const handleKeyDown = (e) => {
